@@ -13,7 +13,7 @@ state ={
     } else {
       this.setState(() =>{
         mood: "happy"}
-      )      
+      )
     }
   }
   render() {
