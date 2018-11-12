@@ -10,6 +10,10 @@ state ={
       this.setState(() =>{
         mood: "sad"}
       )
+    } else {
+      this.setState(() =>{
+        mood: "happy"}
+      )      
     }
   }
   render() {
