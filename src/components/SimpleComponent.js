@@ -6,7 +6,7 @@ state ={
 }
 
   render() {
-    return <div></div>
+    return <div onClick={this.handleClick}>{this.state.mood}</div>
   }
 }
 
